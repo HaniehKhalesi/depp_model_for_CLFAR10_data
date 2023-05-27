@@ -51,7 +51,7 @@ X_train, X_test,y_train , y_test = train_test_split(X, y, test_size=15, random_s
 # data for predict
 y_train_for_peredct = y_train
 y_test_for_peredct = y_test
-# x_train_1_perd, x_validation_perd, y_train_1_perd, y_validation_perd = train_test_split(X_train, y_train, test_size=15)
+x_train_1_perd, x_validation_perd, y_train_1_perd, y_validation_perd = train_test_split(X, y, test_size=15)
 
 print(X_train.shape)
 print(X.shape)
